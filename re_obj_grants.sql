@@ -1,0 +1,4 @@
+-- generate grants for an OBJECT
+
+SELECT DBMS_METADATA.GET_DEPENDENT_DDL('OBJECT_GRANT','&2','&1') FROM DUAL;
+

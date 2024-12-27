@@ -1,0 +1,3 @@
+--  SYNONYM definition in SQL
+SELECT DBMS_METADATA.GET_DDL('SYNONYM', '&2','&1')     FROM DUAL;
+

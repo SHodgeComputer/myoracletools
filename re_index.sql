@@ -1,0 +1,5 @@
+--  INDEX definition in SQL
+
+SELECT ' -- INDEX &1, &2' FROM DUAL;
+SELECT DBMS_METADATA.GET_DDL('INDEX', '&2','&1')     FROM DUAL;
+

@@ -1,0 +1,3 @@
+--  TYPE_SPEC definition in SQL
+SELECT DBMS_METADATA.GET_DDL('TYPE_SPEC', '&2','&1')     FROM DUAL;
+

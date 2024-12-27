@@ -1,0 +1,3 @@
+--  PACKAGE_BODY definition in SQL
+SELECT DBMS_METADATA.GET_DDL('PACKAGE_BODY', '&2','&1')     FROM DUAL;
+
